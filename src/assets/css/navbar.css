@@ -1,0 +1,70 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #023047;
+    padding: 30px 20px;
+    color: #fff;
+  }
+  
+  .navbar-user-icon {
+    font-size: 34px;
+    cursor: pointer;
+    width: 40px;  /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    background-color: #ffc107;  /* Yellow background */
+    border-radius: 50%;  /* Makes it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-user-icon i {
+    font-size: 20px; /* Adjust icon size as needed */
+    color: #023047;  /* Transparent icon */
+  }
+  .navbar-logo {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+  margin-left: 15vw;
+  }
+  
+  .navbar-logo img {
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+  }
+/* Mobile phones (portrait and landscape) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+/* Laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+    padding: 30px;
+  }
+}
+
+/* Desktops */
+@media only screen and (min-width: 1025px) {
+  body {
+    font-size: 20px;
+    padding: 40px;
+  }
+}
+

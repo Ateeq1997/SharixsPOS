@@ -1,0 +1,187 @@
+/* ProductList.css */
+
+.product-list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #1b4659;
+margin-left: 15vw;
+/* display: flex;
+flex-direction: column;
+align-items: flex-end; 
+text-align: right; 
+width: 100%;  */
+  }
+  
+  h1 {
+    color: #ffc107;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #ffc107;
+  }
+  
+  .top-buttons,
+  .search-filter {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    justify-content: flex-end; /* Align items to the right */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .btn1 {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+/*   
+  .pdf { background: red; color: white; }
+  .xls { background: green; color: white; }
+  .print, .refresh, .collapse { background: #ddd; color: black; }
+  .add-product { background: orange; color: white; }
+  .import-product { background: navy; color: white; }
+   */
+  /* Individual Button Styles */
+.pdf { background: red; color: white; }
+.xls { background: green; color: white; }
+.print, .refresh, .collapse { background: #b6b4b4; color: black; }
+.add-product { background: orange; color: white; }
+.import-product { background: navy; color: white; }
+.filter { background: #ff9800; color: white; }
+
+/* Hover Effects */
+.pdf:hover { background: darkred; }
+.xls:hover { background: darkgreen; }
+.print:hover, .refresh:hover, .collapse:hover { background: #7c7a7a; }
+.add-product:hover { background: darkorange; }
+.import-product:hover { background: rgb(2, 2, 56); }
+.filter:hover { background: #e68900; }
+
+  /* Search & Filters */
+  .search-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .search-box {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filter {
+    background: #ff9800;
+    color: white;
+  }
+  
+  /* Product Table */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1b4659;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  th input[type="checkbox"] {
+    width: 20px;  /* Increase checkbox size */
+    height: 20px; /* Increase checkbox size */
+    cursor: pointer; /* Change cursor to pointer */
+    accent-color: #023047; /* Change checkbox color */
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    bottom: -1px;
+    color: #ddd;
+  }
+  
+  td input[type="checkbox"] {
+    width: 20px; /* Increase size */
+    height: 20px; /* Increase size */
+    cursor: pointer; /* Show pointer on hover */
+    accent-color: #1b4659; /* Change checkbox color */
+    border-radius: 20px; /* Apply border-radius */
+    border: 2px solid #007bff; /* Add border color */
+  }
+  td input[type="checkbox"]:hover {
+    filter: brightness(1.2);
+  }
+  
+  /* Optional: Checked state */
+  td input[type="checkbox"]:checked {
+    /* background-color: ; */
+  }
+  .product-table th {
+    background: #023047;
+  }
+  /* .product-table th:last-child {
+    position: relative;
+   margin-left: 20px;
+  } */
+  
+  
+  .product-table img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .button-container {
+    display: flex;
+    
+    gap: 5px; /* Adjust space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+  }
+  
+  .btn1 {
+    /* padding: 8px 12px;  */
+    cursor: pointer;
+  } 
+ /* View, Edit, and Delete Buttons */
+.btn1.view {
+    background: transparent; 
+    color: #ffc107;
+    border: 1px solid #ffc107;
+    font-size: 20px;
+    border-radius: 17px;
+  }
+  .btn1.view:hover {
+    background: #ffc107;
+    color: white;
+  }
+  
+  .btn1.edit {
+    background: transparent; 
+    color: #007bff;
+    border: 1px solid #007bff;
+    font-size: 19px;
+    border-radius: 17px;
+  }
+  .btn1.edit:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .btn1.delete {
+    background: transparent;
+    color: rgb(222, 101, 101);
+    border: 1px solid rgb(222, 101, 101);
+    font-size: 21px;
+    border-radius: 17px;
+  }
+  .btn1.delete:hover {
+    background: rgb(222, 101, 101);
+    color: white;
+  }
+  

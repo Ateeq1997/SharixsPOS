@@ -1,0 +1,200 @@
+html, body {
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  /* overflow-y: auto;   Allow vertical scrolling for the entire page */
+}
+
+/* Users Table Container */
+.users-table-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #013b63;
+  margin-left: 14vw;
+  color: white;
+  overflow-y: auto;  /* Allow scrolling within this container */
+  max-height: calc(100vh - 40px);  /* Adjust to fit the viewport, accounting for padding */
+  box-sizing: border-box; /* Ensures padding is included in the total height */
+}
+
+.users-table-container h1 {
+  color: #ffc107;
+}
+
+/* Search Bar */
+.search-bar {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-bar i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 40px 10px 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #0b1c33;
+  color: aliceblue;
+}
+
+/* Users Table */
+.users-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px; /* Ensures spacing for shadow visibility */
+  table-layout: fixed; /* Ensure fixed table layout */
+}
+
+/* Table Header */
+.users-table thead th {
+  text-align: center;
+  padding: 10px;
+  background-color: #023047;
+  color: white;
+}
+
+/* Table Body Rows */
+.users-table tbody tr {
+  background-color: #1b4659; /* Row background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Row shadow */
+  border-radius: 5px;
+  overflow: hidden; /* Keeps shadow clean */
+  height: 60px; /* Increases row height */
+}
+
+.users-table tbody tr td {
+  padding: 15px;
+  text-align: center;
+}
+
+.users-table tbody tr:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.users-table tbody tr td img.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.action-btn{
+  margin-left: 80px;
+}
+
+.users-table tbody tr td .action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffc107; /* Yellow border */
+  border-radius: 20%; /* Circular button */
+  background-color: transparent; /* Transparent background */
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.users-table tbody tr td .action-btn i {
+  color: #ffc107; /* Black eye icon */
+  font-size: 16px; /* Adjust icon size */
+}
+
+.users-table tbody tr td .action-btn:hover {
+  background-color: rgba(255, 255, 0, 0.2); /* Slight yellowish transparency on hover */
+
+}
+/* 1200px - 1920px (Large desktops) */
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  body {
+    font-size: 18px;
+    /* padding: 40px; */
+  }
+  .search-bar{
+    width: 96%;
+  }
+}
+
+/* 700px - 1200px (Laptops/Tablets) */
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  body {
+    font-size: 16px;
+    /* padding: 30px; */
+  }
+  .users-table-container {
+    margin-left: 60vw;
+  }
+  .users-table-container {
+    margin-bottom: 150px;
+  }
+  .search-bar {
+    width: 95%;
+  }
+  .action-btn{
+    margin-left: 30px;
+  }
+  .users-table {
+    width: 90%;
+    margin-left: 8vw;
+  }
+  .search-bar {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 8vw;
+  }
+  
+  .search-bar i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+  }
+  
+  .search-bar input {
+    width: 100%;
+  }
+}
+
+/* 480px - 700px (Tablets/Phones) */
+@media only screen and (max-width: 1024px) {
+  body {
+
+  }
+  .users-table-container {
+    margin-left: 80px;
+  }
+  .search-bar {
+    width: 90%;
+  }
+  .action-btn{
+    margin-left: 25px;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .users-table-container {
+    margin-left: 55px;
+  }
+  .action-btn{
+    margin-left: 12px;
+  }
+}
+
+/* Below 480px (Mobile Phones) */
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 12px;
+    
+  }
+  .search-bar{
+    width: 90%;
+  }
+}

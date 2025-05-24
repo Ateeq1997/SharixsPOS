@@ -1,0 +1,168 @@
+/* General Styling */
+.dashboard-container {
+  width: 85%;
+  margin-left: 15vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #013b63;
+}
+
+/* Stats Cards */
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1b4659;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+  font-size: 60px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Info Cards */
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.info-card {
+  background: #1b4659;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-card i {
+  font-size: 46px;
+  color: #28a745;
+  margin-bottom: 8px;
+}
+
+.info-card h2 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.info-card p {
+  font-size: 13px;
+  color: #fff;
+}
+
+/* Purchase & Sales Chart */
+.purchase-sales {
+  background: #1b4659;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.purchase-sales h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.apexcharts-legend-text {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.apexcharts-bar-series .apexcharts-series path {
+  stroke-width: 3px !important; /* Increase bar border width */
+}
+.row-container {
+  display: flex;
+  justify-content: space-between; /* Creates space between items */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Adds space between the two sections */
+}
+
+.purchase-sales,
+.recent-products {
+  width: 50%; /* Each section takes half of the row */
+  padding: 20px; /* Adds spacing inside */
+  border-radius: 8px; /* Optional: Rounds corners */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+}
+
+/* Ensures the table and chart don't overflow */
+.purchase-sales canvas {
+  max-width: 100%;
+}
+
+.recent-products table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-products th, .recent-products td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Recent Products Table */
+.recent-products {
+  background: #1b4659;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.recent-products h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recent-products table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.recent-products th, .recent-products td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+.recent-products td {
+  background: #1b4659;
+  color: #fff;
+}
+.recent-products th {
+  background: #023047;
+  color: white;
+}
+
+.recent-products tr:hover {
+  background: #1b4659;
+}
+.product-list-container{
+
+}
+h4{
+  color:#ffc107;
+}

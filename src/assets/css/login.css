@@ -1,0 +1,97 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } */
+  
+  .container1 {
+    background-color: #1b4659;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    height: auto;
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 14vh;
+    border: 3px solid #ffc107;
+  }
+  h1{
+    color: whitesmoke;
+    font-size: 3.5rem;
+  }
+  h2 {
+    margin-bottom: 20px;
+    /* color: #0056b3; */
+    font-size: 2.5rem;
+    color: #b4d3f3; /* Dark sophisticated blue-gray */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  input:focus {
+    background-color: white; /* Turns white on focus */
+    color: black;
+    border: 3px solid #ffc107; /* Sophisticated blue-gray border */
+    outline: none;
+  }
+  
+  /* Placeholder styling */
+  input::placeholder {
+    color: #999; /* Light grey for subtle effect */
+    font-style: italic;
+  }
+  input:hover {
+background-color: #fff;
+border: 3px solid #007bff;
+  }
+  .btn {
+    width: 100%;
+    max-width: 30%;
+    height: 5vh;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password, .back-to-login {
+    display: block;
+    margin-top: 10px;
+    color: floralwhite;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover, .back-to-login:hover {
+    text-decoration: underline;
+  }

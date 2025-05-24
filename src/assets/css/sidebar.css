@@ -1,0 +1,145 @@
+/* Sidebar.css */
+.sidebar-item {
+  /* position: relative; */
+  list-style: none;
+}
+
+.sidebar-item .dropdown-menu {
+  display: none;
+  padding-left: 20px; 
+}
+.sidebar-section {
+  margin-bottom: 10px; /* Adds spacing between sections */
+}
+.sidebar-item.open .dropdown-menu {
+  display: block;
+}
+
+.sidebar {
+  width: 15vw;
+  background-color: #023047;
+  height: 100vh; /* Full viewport height */
+  color: #fff;
+  position: fixed; /* Keeps sidebar fixed */
+  top: 0; /* Start from the top */
+  left: 0;
+  overflow-y: auto; /* Enables scrolling inside sidebar */
+  padding: 10px;
+  white-space: nowrap;
+}
+/* Hide scrollbar in Webkit browsers (Chrome, Safari) */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Sidebar Menu Items */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-left: -20px; /* Remove unnecessary negative margin */
+
+
+}
+
+.sidebar-item {
+  padding: 5px 10px; 
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-item a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.dropdown-item {
+  padding: 5px 15px;
+  background: #ffffff10;
+  color: #ddd;
+  display: block;
+}
+
+.sidebar-item a:hover {
+  color: #f1c40f;
+}
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 15px 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  .sidebar a i {
+    font-size: 24px; /* Increased icon size */
+    margin-right: 10px; /* Space between icon and text */
+    transition: color 0.3s; /* Smooth transition for icon color */
+  }
+  
+  .sidebar a span {
+    transition: color 0.3s; /* Smooth transition for text color */
+  }
+  
+  .sidebar a:hover {
+    background-color: #013b63;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .sidebar a:hover i, /* Hover effect on icon */
+  .sidebar a:hover span { /* Hover effect on text */
+    color: #ffc107;
+  }
+  /* 700px - 1200px (Laptops/Tablets) */
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  body {
+    font-size: 16px;
+    /* padding: 30px; */
+  }
+  .sidebar {
+    width: 16.5vw;
+  }
+}
+
+/* 480px - 700px (Tablets/Phones) */
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+    /* padding: 20px; */
+  }
+  .sidebar {
+    width: 19vw;
+  }
+  .sidebar ul {
+    margin-left: -20px;
+  }
+  
+}
+
+/* Below 480px (Mobile Phones) */
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+  

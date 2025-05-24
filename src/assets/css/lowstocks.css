@@ -1,0 +1,115 @@
+.low-stocks-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.low-stocks-btn {
+    background-color: #FFA351;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.low-stocks-btn:hover {
+    background-color: #FF8C00;
+}
+
+.out-of-stocks-btn {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.out-of-stocks-btn:hover {
+    background-color: #D1D5DB;
+}
+
+/* Toggle Switch */
+.notify-switch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.notify-switch input {
+    display: none;
+}
+
+.slider {
+    position: relative;
+    width: 32px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+input:checked + .slider {
+    background-color: #2ECC71;
+}
+
+input:checked + .slider:before {
+    transform: translateX(16px);
+}
+
+.notify-text {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Send Email Button */
+.send-email-btn {
+    background-color: #0F2C53;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.send-email-btn i {
+    font-size: 14px;
+}
+
+.send-email-btn:hover {
+    background-color: #0A1D3E;
+}
+.status-active {
+    color: #28a745;
+    font-weight: bold;
+    border: 1px solid #28a745;
+    background-color: transparent;
+    padding: 6px 6px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
