@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+SharixPOS 
+markdown
+Copy
+Edit
+# SharixPOS – Point of Sale (POS) System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**SharixPOS** is a web-based Point of Sale system developed using **React**, **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. Designed for businesses to manage sales, inventory, and users efficiently, it includes an intuitive admin dashboard and a responsive user interface.
 
-## Available Scripts
+🔗 **Live Demo:** [https://sharixs-pos.vercel.app/admindashboard](https://sharixs-pos.vercel.app/admindashboard)
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Admin dashboard with real-time data view
+- Sales management system
+- Inventory tracking
+- User management
+- Responsive design for mobile and desktop
+- Built with modular and reusable React components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Bootstrap 4/5
 
-### `npm test`
+## 📂 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+sharix-pos/
 
-### `npm run build`
+├── public/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+│ └── index.html
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+├── src/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+│ ├── components/
 
-### `npm run eject`
+│ ├── pages/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+│ ├── styles/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+│ ├── App.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+│ └── index.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+├── package.json
 
-## Learn More
+├── README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+└── ...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+markdown
+Copy
+Edit
 
-### Code Splitting
+## 💻 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+- Node.js (v16 or later)
+- npm or yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Installation
 
-### Making a Progressive Web App
+1. Clone the repository:
+```bash
+git clone https://github.com/Ateeq1997/SharixsPOS.git
+Navigate into the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+Copy
+Edit
+cd sharix-pos
+Install dependencies:
 
-### Advanced Configuration
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+bash
+Copy
+Edit
+npm start
+Open http://localhost:3000 in your browser to view the app.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+👨‍💻 Author
+Ateeq ur Rehman
+GitHub Profile
+Email: ateeqhizb97@gmail.com
 
-### `npm run build` fails to minify
+📸 Screenshots
+Here is the some Screenshots , If you want to see it just copy the link of screenshot and paste in Browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2025-05-25 164224](https://github.com/user-attachments/assets/7d51ad56-0d4e-4902-a82f-a187ab306f83)
+![Screenshot 2025-05-25 164249](https://github.com/user-attachments/assets/bc7a11d2-e132-4696-a6ff-fee49fb1c4aa)
+![Screenshot 2025-05-25 164240](https://github.com/user-attachments/assets/620c81c9-833a-4cdf-a373-6f2aeadd69a3)
